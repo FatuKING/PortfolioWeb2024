@@ -31,7 +31,7 @@ export function DelayedLetters ({ text, delay, repeat }) {
 
   return (
     <>
-      <span className='text text-lg lg:text-xl'>{phrase}</span>
+      <span className='text text-lg'>{phrase}</span>
     </>
   )
 }
