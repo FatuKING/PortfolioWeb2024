@@ -14,7 +14,7 @@ function App () {
     setProyect(false)
   }
 
-  const styleOn = 'scale-90 bg-violet-700 border border-violet-600 rounded-full'
+  const styleOn = 'scale-95 bg-gray-700 border border-gray-600 rounded-full'
 
   return (
     <>
@@ -23,15 +23,17 @@ function App () {
         <AboutMe />
 
         <section className='w-4/5 xl:w-3/4 2xl:w-1/2 pt-32'>
-          <h2 className='text-2xl pb-3 font-bold' id='Proyectos'> <i class='bi bi-code-slash font-bold' /> Proyectos</h2>
-          <div className='flex justify-center w-52 bg-gradient-to-tl from-slate-800 via-violet-600 to-violet-700 border border-gray-600 rounded-full'>
-            <button onClick={proyectFront} className={`text-xl p-1 pl-3 pr-3 ${proyect ? styleOn : null}`}>
-              Frontend
-            </button>
-            <button onClick={proyectBack} className={`text-xl p-1 pl-3 pr-3 ${!proyect ? styleOn : null}`}>
-              Backend
-            </button>
-          </div>
+          <article className='flex justify-between items-center'>
+            <h2 className=' text-xl xl:text-2xl font-bold' id='Proyectos'> <i class='bi bi-code-slash font-bold' /> Proyectos</h2>
+            <div className='flex justify-center items-center w-auto bg-gray-800 border border-gray-600 rounded-full shadow shadow-gray-600 hover:shadow-gray-600'>
+              <button onClick={proyectFront} className={`p-1 pl-3 pr-3 ${proyect ? styleOn : null}`}>
+                Frontend
+              </button>
+              <button onClick={proyectBack} className={`p-1 pl-3 pr-3 ${!proyect ? styleOn : null}`}>
+                Backend
+              </button>
+            </div>
+          </article>
 
           {
           proyect ? <Proyect /> : <Proyect />
@@ -39,7 +41,7 @@ function App () {
         </section>
 
         <section className='w-4/5 xl:w-3/4 2xl:w-1/2 pt-32'>
-          <h2 className='text-2xl pb-3 font-bold' id='Habilidades'> <i class='bi bi-code-slash font-bold' /> Habilidades</h2>
+          <h2 className='text-lg lg:text-xl xl:text-2xl  pb-3 font-bold' id='Habilidades'> <i class='bi bi-code-slash font-bold' /> Habilidades</h2>
         </section>
       </main>
 
