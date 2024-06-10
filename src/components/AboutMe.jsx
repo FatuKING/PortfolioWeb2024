@@ -10,7 +10,7 @@ export function AboutMe () {
           <DelayedLetters text='Software Developer Jr' delay={200} repeat={2} />
 
           <p className='inline-block pt-3 md:w-4/5 xl:w-2/3 2xl:w-3/4'>
-            Actualmente, estoy estudiando en <a href='https://www.istea.edu.ar/' target='_blank' rel='noreferrer'><span className='underline decoration-violet-600 font-medium'>ISTEA</span></a> y simultáneamente desempeño el rol de analista de sistemas en <a href='https://www.cafemartinez.com/' target='_blank' rel='noreferrer'><span className='underline decoration-violet-600 font-medium'>Cafe Martinez.</span></a> Durante mi tiempo libre, me dedico a desarrollar mis proyectos personales, disfrutar de juegos y compartir momentos con mi familia.
+            Actualmente, estoy estudiando en <a href='https://www.istea.edu.ar/' target='_blank' rel='noreferrer'><span className='underline decoration-violet-600 font-medium'>ISTEA</span></a> y simultáneamente desempeño el rol de analista de sistemas en <a href='https://www.cafemartinez.com/' target='_blank' rel='noreferrer'><span className='underline decoration-violet-600 font-medium'>Cafe Martinez.</span></a> Durante mi tiempo libre, me dedico a desarrollar mis proyectos personales, disfrutar de videojuegos y compartir momentos con mi familia.
           </p>
 
           <div className='flex gap-3 pt-5'>
