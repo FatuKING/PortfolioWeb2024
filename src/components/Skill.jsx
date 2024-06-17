@@ -4,76 +4,97 @@ export function Skill ({ skill, icon }) {
   return (
     <>
       <section className='grid grid-cols-6 gap-5'>
-        <article className='flex flex-col justify-center items-center bg-gray-800/50 border border-gray-600 rounded-lg p-2'>
-          <IconHtml />
-
-          <span className=''>HTML</span>
+        <article className='group flex flex-col justify-center items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
+          <div className='grayscale group-hover:grayscale-0'>
+            <IconHtml />
+          </div>
+          <span className='xl:text-lg'>HTML</span>
         </article>
 
-        <article className='flex flex-col justify-center items-center bg-gray-800/50 border border-gray-600 rounded-lg p-2'>
-          <IconCss />
-
-          <span className=''>CSS</span>
+        <article className='group flex flex-col justify-center items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
+          <div className='grayscale group-hover:grayscale-0'>
+            <IconCss />
+          </div>
+          <span className='xl:text-lg'>CSS</span>
         </article>
 
-        <article className='flex flex-col justify-center items-center bg-gray-800/50 border border-gray-600 rounded-lg p-2'>
-          <IconJavascript />
-
-          <span className=''>JavaScript</span>
+        <article className='group flex flex-col justify-center items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
+          <div className='grayscale group-hover:grayscale-0'>
+            <IconJavascript />
+          </div>
+          <span className='xl:text-lg'>JavaScript</span>
         </article>
 
-        <article className='flex flex-col justify-center items-center bg-gray-800/50 border border-gray-600 rounded-lg p-2'>
-          <IconReact />
+        <article className='group flex flex-col justify-center items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
+          <div className='grayscale group-hover:grayscale-0'>
+            <IconReact />
+          </div>
 
-          <span className=''>React</span>
+          <span className='xl:text-lg'>React</span>
         </article>
 
-        <article className='flex flex-col justify-center items-center bg-gray-800/60 border border-gray-600 rounded-lg p-2'>
-          <IconTailwind />
+        <article className='group flex flex-col justify-center items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
+          <div className='grayscale group-hover:grayscale-0'>
+            <IconTailwind />
+          </div>
 
-          <span className=''>Tailwind</span>
+          <span className='xl:text-lg'>Tailwind</span>
         </article>
 
-        <article className='flex flex-col justify-center items-center bg-gray-800/50 border border-gray-600 rounded-lg p-2'>
-          <IconBootstrap />
+        <article className='group flex flex-col justify-center items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
+          <div className='grayscale group-hover:grayscale-0'>
+            <IconBootstrap />
+          </div>
 
-          <span className=''>Bootstrap</span>
+          <span className='xl:text-lg'>Bootstrap</span>
         </article>
 
-        <article className='flex flex-col justify-center items-center bg-gray-800/50 border border-gray-600 rounded-lg p-2'>
-          <IconCShar />
+        <article className='group flex flex-col justify-center items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
+          <div className='grayscale group-hover:grayscale-0'>
+            <IconCShar />
+          </div>
 
-          <span className=''>C#</span>
+          <span className='xl:text-lg'>C#</span>
         </article>
 
-        <article className='flex flex-col justify-center items-center bg-gray-800/50 border border-gray-600 rounded-lg p-2'>
-          <IconJava />
+        <article className='group flex flex-col justify-center items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
+          <div className='grayscale group-hover:grayscale-0'>
+            <IconJava />
+          </div>
 
-          <span className=''>Java</span>
+          <span className='xl:text-lg'>Java</span>
         </article>
 
-        <article className='flex flex-col justify-center items-center bg-gray-800/50 border border-gray-600 rounded-lg p-2'>
-          <IconNodejs />
+        <article className='group flex flex-col justify-center items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
+          <div className='grayscale group-hover:grayscale-0'>
+            <IconNodejs />
+          </div>
 
-          <span className=''>NodeJS</span>
+          <span className='xl:text-lg'>NodeJS</span>
         </article>
 
-        <article className='flex flex-col justify-center items-center bg-gray-800/50 border border-gray-600 rounded-lg p-2'>
-          <IconMicrosoftSqlServer />
+        <article className='group flex flex-col justify-center items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
+          <div className='grayscale group-hover:grayscale-0'>
+            <IconMicrosoftSqlServer />
+          </div>
 
-          <span className=''>SQL Server</span>
+          <span className='xl:text-lg'>SQL Server</span>
         </article>
 
-        <article className='flex flex-col justify-center items-center bg-gray-800/50 border border-gray-600 rounded-lg p-2'>
-          <IconPostgreSql />
+        <article className='group flex flex-col justify-center items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
+          <div className='grayscale group-hover:grayscale-0'>
+            <IconPostgreSql />
+          </div>
 
-          <span className=''>PostgreSQL</span>
+          <span className='xl:text-lg'>PostgreSQL</span>
         </article>
 
-        <article className='flex flex-col justify-center items-center bg-gray-800/50 border border-gray-600 rounded-lg p-2'>
-          <IconMySql />
+        <article className='group flex flex-col justify-center items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
+          <div className='grayscale group-hover:grayscale-0'>
+            <IconMySql />
+          </div>
 
-          <span className=''>MySQL</span>
+          <span className='xl:text-lg'>MySQL</span>
         </article>
       </section>
     </>

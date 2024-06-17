@@ -3,7 +3,8 @@ import { AboutMe } from './components/AboutMe.jsx'
 import { Proyect } from './components/Proyect.jsx'
 import { useState } from 'react'
 import { Skill } from './components/Skill.jsx'
-import { LinkIcon } from './components/LinkIcon.jsx'
+import { Footer } from './components/Footer.jsx'
+import { Counter } from './components/Counter.jsx'
 
 function App () {
   const [proyect, setProyect] = useState(true)
@@ -16,18 +17,29 @@ function App () {
     setProyect(false)
   }
 
-  const styleOn = 'scale-95 bg-gray-700/50 border border-gray-600 rounded-full'
+  const styleOn = 'scale-95 bg-gray-800/60 border border-gray-600 rounded-full'
 
   return (
     <>
       <Navbar name1='Inicio' name2='Proyectos' name3='Habilidades' url1='#' url2='#Proyectos' url3='#Habilidades' />
-      <main className='flex flex-col items-center justify-center pt-36 '>
+      <main className='flex flex-col gap-40 items-center justify-center pt-36 '>
         <AboutMe />
 
-        <section className='w-4/5 xl:w-3/4 2xl:w-1/2 pt-36' id='Proyectos'>
-          <article className='flex justify-between items-center'>
-            <h2 className=' text-xl xl:text-2xl font-bold'> <i class='bi bi-code-slash font-bold' /> Proyectos</h2>
-            <div className='flex justify-center items-center w-auto bg-gray-800/50 border border-gray-600 rounded-full shadow shadow-gray-600 hover:shadow-gray-600'>
+        <section className='flex justify-between w-4/5 xl:w-3/4 2xl:w-1/2'>
+          <article className='flex flex-col justify-center items-center p-2'>
+            <div className='text-3xl font-bold'>2</div>
+            <span className='text-lg font-semibold'>Experiencia</span>
+          </article>
+
+          <Counter numberMax='11' text='Proyectos' delay='200' />
+
+          <Counter numberMax='120' text='Contribuciones' delay='100' />
+        </section>
+
+        <section className='w-4/5 xl:w-3/4 2xl:w-1/2 pt-16' id='Proyectos'>
+          <article className='flex justify-between items-center pb-4'>
+            <h2 className=' text-xl xl:text-2xl 2xl:text-3xl font-bold'> <i class='bi bi-code-slash font-bold' /> Proyectos</h2>
+            <div className='flex justify-center items-center w-auto bg-transparent border border-gray-500 rounded-full'>
               <button onClick={proyectFront} className={`p-1 pl-3 pr-3 ${proyect ? styleOn : null}`}>
                 Frontend
               </button>
@@ -42,25 +54,17 @@ function App () {
           }
         </section>
 
-        <section className='w-4/5 xl:w-3/4 2xl:w-1/2 pt-36'>
-          <h2 className='text-lg lg:text-xl xl:text-2xl  pb-3 font-bold' id='Habilidades'> <i class='bi bi-code-slash font-bold' /> Habilidades</h2>
+        <section className='w-4/5 xl:w-3/4 2xl:w-1/2 pb-36'>
+          <article className='pb-4'>
+            <h2 className='text-lg lg:text-xl xl:text-2xl 2xl:text-3xl pb-3 font-bold' id='Habilidades'> <i class='bi bi-code-slash font-bold' /> Habilidades</h2>
+          </article>
 
           <Skill />
 
         </section>
       </main>
 
-      <footer className='flex justify-center items-center'>
-        <address className='flex justify-between items-center w-4/5 xl:w-3/4 2xl:w-1/2 pt-36 pb-2'>
-          <h5 className=''>Facundo Cozzani</h5>
-
-          <div className='flex gap-3'>
-            <LinkIcon url='https://www.linkedin.com/in/facundocozzani' icon='linkedin' title='Perfil Linkedin' />
-            <LinkIcon url='https://wa.me/1155709631' icon='whatsapp' title='Chat por WhatsApp' />
-            <LinkIcon url='mailto:cozzanifacundo@gmail.com' icon='envelope-at' title='Envio de Mail' />
-          </div>
-        </address>
-      </footer>
+      <Footer />
 
     </>
   )
