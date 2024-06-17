@@ -48,6 +48,28 @@ a:hover .color{
   animation: titilar 2s infinite;
 }
 
+.efectColor {
+  animation: colorScale 10s infinite;
+}
+
+@keyframes colorScale {
+  0% {
+    filter: grayscale(1);
+  }
+  25% {
+    filter: grayscale(0.75);
+  }
+  50% {
+    filter: grayscale(0);
+  }
+  75% {
+    filter: grayscale(0.75);
+  }
+  100%{
+    filter: grayscale(0.5);
+  }
+}
+
 @keyframes titilar {
   0% {
     opacity: 1;

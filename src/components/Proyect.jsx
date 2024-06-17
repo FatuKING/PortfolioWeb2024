@@ -10,10 +10,10 @@ export function Proyect ({ proyect, title, description }) {
           <p className='pt-2'>Monorepositorio de proyectos utilizando React</p>
 
           <div className='flex gap-2 absolute bottom-3'>
-            <span className='text-xs font-medium p-1 pl-2 pr-2 bg-gray-800 border border-gray-700 rounded-full'>React</span>
-            <span className='text-xs font-medium p-1 pl-2 pr-2 bg-gray-800 border border-gray-700 rounded-full'>Tailwind</span>
-            <span className='text-xs font-medium p-1 pl-2 pr-2 bg-gray-800 border border-gray-700 rounded-full'>JavaScript</span>
-            <span className='text-xs font-medium p-1 pl-2 pr-2 bg-gray-800 border border-gray-700 rounded-full'>TypeScript</span>
+            <span className='text-xs font-medium p-1 pl-2 pr-2 bg-blue-950 border border-gray-800 rounded-full'>React</span>
+            <span className='text-xs font-medium p-1 pl-2 pr-2 bg-blue-950 border border-gray-800 rounded-full'>Tailwind</span>
+            <span className='text-xs font-medium p-1 pl-2 pr-2 bg-blue-950 border border-gray-800 rounded-full'>JavaScript</span>
+            <span className='text-xs font-medium p-1 pl-2 pr-2 bg-blue-950 border border-gray-800 rounded-full'>TypeScript</span>
           </div>
         </article>
 
@@ -25,9 +25,9 @@ export function Proyect ({ proyect, title, description }) {
           <p className='pt-2'>Menu online para restaurante de comida rapida, utilizando google sheet como base de datos.</p>
 
           <div className='flex gap-2 absolute bottom-3'>
-            <span className='text-xs font-medium p-1 pl-2 pr-2 bg-gray-800 border border-gray-700 rounded-full'>React</span>
-            <span className='text-xs font-medium p-1 pl-2 pr-2 bg-gray-800 border border-gray-700 rounded-full'>Bootstrap</span>
-            <span className='text-xs font-medium p-1 pl-2 pr-2 bg-gray-800 border border-gray-700 rounded-full'>Google-Sheet</span>
+            <span className='text-xs font-medium p-1 pl-2 pr-2 bg-blue-950 border border-gray-800 rounded-full'>React</span>
+            <span className='text-xs font-medium p-1 pl-2 pr-2 bg-blue-950 border border-gray-800 rounded-full'>Bootstrap</span>
+            <span className='text-xs font-medium p-1 pl-2 pr-2 bg-blue-950 border border-gray-800 rounded-full'>Google-Sheet</span>
           </div>
         </article>
 

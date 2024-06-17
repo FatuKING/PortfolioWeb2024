@@ -16,7 +16,7 @@ function App () {
     setProyect(false)
   }
 
-  const styleOn = 'scale-95 bg-gray-800/60 border border-gray-600 rounded-full'
+  const styleOn = 'scale-100 bg-blue-950 border border-gray-800 rounded-full'
 
   return (
     <>
@@ -28,10 +28,10 @@ function App () {
           <article className='flex justify-between items-center pb-4'>
             <h2 className=' text-xl xl:text-2xl 2xl:text-3xl font-bold'> <i class='bi bi-code-slash font-bold' /> Proyectos</h2>
             <div className='flex justify-center items-center w-auto bg-transparent border border-gray-500 rounded-full'>
-              <button onClick={proyectFront} className={`p-1 pl-3 pr-3 ${proyect ? styleOn : null}`}>
+              <button onClick={proyectFront} className={`scale-95 p-1 pl-3 pr-3 ${proyect ? styleOn : null}`}>
                 Frontend
               </button>
-              <button onClick={proyectBack} className={`p-1 pl-3 pr-3 ${!proyect ? styleOn : null}`}>
+              <button onClick={proyectBack} className={`scale-95 p-1 pl-3 pr-3 ${!proyect ? styleOn : null}`}>
                 Backend
               </button>
             </div>

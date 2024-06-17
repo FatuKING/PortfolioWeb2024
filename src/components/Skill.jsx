@@ -5,28 +5,28 @@ export function Skill ({ skill, icon }) {
     <>
       <section className='grid grid-cols-3 md:grid-cols-6 gap-3 md:gap-5'>
         <article className='group flex flex-col justify-center gap-2 items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
-          <div className='grayscale group-hover:grayscale-0'>
+          <div className=''>
             <IconHtml />
           </div>
           <span className='text-sm sm:text-base xl:text-lg'>HTML</span>
         </article>
 
         <article className='group flex flex-col justify-center gap-2 items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
-          <div className='grayscale group-hover:grayscale-0'>
+          <div className=''>
             <IconCss />
           </div>
           <span className='text-sm sm:text-base xl:text-lg'>CSS</span>
         </article>
 
         <article className='group flex flex-col justify-center gap-2 items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
-          <div className='grayscale group-hover:grayscale-0'>
+          <div className=''>
             <IconJavascript />
           </div>
           <span className='text-sm sm:text-base xl:text-lg'>JavaScript</span>
         </article>
 
         <article className='group flex flex-col justify-center gap-2 items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
-          <div className='grayscale group-hover:grayscale-0'>
+          <div className=''>
             <IconReact />
           </div>
 
@@ -34,7 +34,7 @@ export function Skill ({ skill, icon }) {
         </article>
 
         <article className='group flex flex-col justify-center gap-2 items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
-          <div className='grayscale group-hover:grayscale-0'>
+          <div className=''>
             <IconTailwind />
           </div>
 
@@ -42,7 +42,7 @@ export function Skill ({ skill, icon }) {
         </article>
 
         <article className='group flex flex-col justify-center gap-2 items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
-          <div className='grayscale group-hover:grayscale-0'>
+          <div className=''>
             <IconBootstrap />
           </div>
 
@@ -50,7 +50,7 @@ export function Skill ({ skill, icon }) {
         </article>
 
         <article className='group flex flex-col justify-center gap-2 items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
-          <div className='grayscale group-hover:grayscale-0'>
+          <div className=''>
             <IconCShar />
           </div>
 
@@ -58,7 +58,7 @@ export function Skill ({ skill, icon }) {
         </article>
 
         <article className='group flex flex-col justify-center gap-2 items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
-          <div className='grayscale group-hover:grayscale-0'>
+          <div className=''>
             <IconJava />
           </div>
 
@@ -66,7 +66,7 @@ export function Skill ({ skill, icon }) {
         </article>
 
         <article className='group flex flex-col justify-center gap-2 items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
-          <div className='grayscale group-hover:grayscale-0'>
+          <div className=''>
             <IconNodejs />
           </div>
 
@@ -74,7 +74,7 @@ export function Skill ({ skill, icon }) {
         </article>
 
         <article className='group flex flex-col justify-center gap-2 items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
-          <div className='grayscale group-hover:grayscale-0'>
+          <div className=''>
             <IconMicrosoftSqlServer />
           </div>
 
@@ -82,7 +82,7 @@ export function Skill ({ skill, icon }) {
         </article>
 
         <article className='group flex flex-col justify-center gap-2 items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
-          <div className='grayscale group-hover:grayscale-0'>
+          <div className=''>
             <IconPostgreSql />
           </div>
 
@@ -90,7 +90,7 @@ export function Skill ({ skill, icon }) {
         </article>
 
         <article className='group flex flex-col justify-center gap-2 items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
-          <div className='grayscale group-hover:grayscale-0'>
+          <div className=''>
             <IconMySql />
           </div>
 
