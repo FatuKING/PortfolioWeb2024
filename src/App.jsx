@@ -28,7 +28,7 @@ function App () {
         <section className='flex justify-between w-4/5 xl:w-3/4 2xl:w-1/2'>
           <article className='flex flex-col justify-center items-center p-2'>
             <div className='text-3xl font-bold'>2</div>
-            <span className='text-lg font-semibold'>Experiencia</span>
+            <span className='sm:text-lg font-semibold'>Experiencia</span>
           </article>
 
           <Counter numberMax='11' text='Proyectos' delay='200' />
