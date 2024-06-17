@@ -31,8 +31,7 @@
 .dark {
   height: auto;
   
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,10,47,1) 100%); 
+  background-image: linear-gradient(to right top, #051937, #081635, #0c1334, #100f31, #140a2f);
 }
 
 a:hover .color{

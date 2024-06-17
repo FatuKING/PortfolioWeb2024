@@ -4,7 +4,6 @@ import { Proyect } from './components/Proyect.jsx'
 import { useState } from 'react'
 import { Skill } from './components/Skill.jsx'
 import { Footer } from './components/Footer.jsx'
-import { Counter } from './components/Counter.jsx'
 
 function App () {
   const [proyect, setProyect] = useState(true)
@@ -22,19 +21,8 @@ function App () {
   return (
     <>
       <Navbar name1='Inicio' name2='Proyectos' name3='Habilidades' url1='#' url2='#Proyectos' url3='#Habilidades' />
-      <main className='flex flex-col gap-40 items-center justify-center pt-36 '>
+      <main className='flex flex-col gap-36 items-center justify-center pt-36 '>
         <AboutMe />
-
-        <section className='flex justify-between w-4/5 xl:w-3/4 2xl:w-1/2'>
-          <article className='flex flex-col justify-center items-center p-2'>
-            <div className='text-3xl font-bold'>2</div>
-            <span className='sm:text-lg font-semibold'>Experiencia</span>
-          </article>
-
-          <Counter numberMax='11' text='Proyectos' delay='200' />
-
-          <Counter numberMax='120' text='Contribuciones' delay='100' />
-        </section>
 
         <section className='w-4/5 xl:w-3/4 2xl:w-1/2 pt-16' id='Proyectos'>
           <article className='flex justify-between items-center pb-4'>
@@ -54,7 +42,7 @@ function App () {
           }
         </section>
 
-        <section className='w-4/5 xl:w-3/4 2xl:w-1/2 pb-36'>
+        <section className='w-4/5 xl:w-3/4 2xl:w-1/2 pt-36 pb-36'>
           <article className='pb-4'>
             <h2 className='text-lg lg:text-xl xl:text-2xl 2xl:text-3xl pb-3 font-bold' id='Habilidades'> <i class='bi bi-code-slash font-bold' /> Habilidades</h2>
           </article>

@@ -3,10 +3,10 @@ export function Footer () {
     <>
 
       <footer className='flex justify-center items-center pt-3'>
-        <address className='flex justify-between items-center w-4/5 xl:w-3/4 2xl:w-1/2 pb-2 border-t border-gray-400'>
-          <div className='flex flex-col pt-2'>
-            <h5 className='text-lg md:text-xl'>Facundo Cozzani</h5>
-            <span className=''>Portfolio 2024</span>
+        <address className='flex justify-between items-center w-4/5 xl:w-3/4 2xl:w-1/2 pb-2 border-t border-gray-400 pt-5'>
+          <div className='flex flex-col'>
+            <h5 className='text-lg md:text-xl leading-none'>Facundo Cozzani</h5>
+            <span className='leading-none'>Portfolio 2024</span>
           </div>
 
           <ul className='flex gap-5'>
