@@ -21,7 +21,7 @@ function App () {
   return (
     <>
       <Navbar name1='Inicio' name2='Proyectos' name3='Habilidades' url1='#' url2='#Proyectos' url3='#Habilidades' />
-      <main className='flex flex-col gap-36 items-center justify-center pt-28 md:pt-36 '>
+      <main className='flex flex-col gap-36 items-center justify-center pt-20 md:pt-36 '>
         <AboutMe />
 
         <section className='w-4/5 xl:w-3/4 2xl:w-1/2 pt-16' id='Proyectos'>
