@@ -8,21 +8,21 @@ export function Skill ({ skill, icon }) {
           <div className=''>
             <IconHtml />
           </div>
-          <span className='text-sm sm:text-base xl:text-lg'>HTML</span>
+          <span className='text-sm sm:text-base xl:text-lg font-semibold'>HTML</span>
         </article>
 
         <article className='group flex flex-col justify-center gap-2 items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
           <div className=''>
             <IconCss />
           </div>
-          <span className='text-sm sm:text-base xl:text-lg'>CSS</span>
+          <span className='text-sm sm:text-base xl:text-lg font-semibold'>CSS</span>
         </article>
 
         <article className='group flex flex-col justify-center gap-2 items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
           <div className=''>
             <IconJavascript />
           </div>
-          <span className='text-sm sm:text-base xl:text-lg'>JavaScript</span>
+          <span className='text-sm sm:text-base xl:text-lg font-semibold'>JavaScript</span>
         </article>
 
         <article className='group flex flex-col justify-center gap-2 items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
@@ -30,7 +30,7 @@ export function Skill ({ skill, icon }) {
             <IconReact />
           </div>
 
-          <span className='text-sm sm:text-base xl:text-lg'>React</span>
+          <span className='text-sm sm:text-base xl:text-lg font-semibold'>React</span>
         </article>
 
         <article className='group flex flex-col justify-center gap-2 items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
@@ -38,7 +38,7 @@ export function Skill ({ skill, icon }) {
             <IconTailwind />
           </div>
 
-          <span className='text-sm sm:text-base xl:text-lg'>Tailwind</span>
+          <span className='text-sm sm:text-base xl:text-lg font-semibold'>Tailwind</span>
         </article>
 
         <article className='group flex flex-col justify-center gap-2 items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
@@ -46,7 +46,7 @@ export function Skill ({ skill, icon }) {
             <IconBootstrap />
           </div>
 
-          <span className='text-sm sm:text-base xl:text-lg'>Bootstrap</span>
+          <span className='text-sm sm:text-base xl:text-lg font-semibold'>Bootstrap</span>
         </article>
 
         <article className='group flex flex-col justify-center gap-2 items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
@@ -54,7 +54,7 @@ export function Skill ({ skill, icon }) {
             <IconCShar />
           </div>
 
-          <span className='text-sm sm:text-base xl:text-lg'>C#</span>
+          <span className='text-sm sm:text-base xl:text-lg font-semibold'>C#</span>
         </article>
 
         <article className='group flex flex-col justify-center gap-2 items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
@@ -62,7 +62,7 @@ export function Skill ({ skill, icon }) {
             <IconJava />
           </div>
 
-          <span className='text-sm sm:text-base xl:text-lg'>Java</span>
+          <span className='text-sm sm:text-base xl:text-lg font-semibold'>Java</span>
         </article>
 
         <article className='group flex flex-col justify-center gap-2 items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
@@ -70,7 +70,7 @@ export function Skill ({ skill, icon }) {
             <IconNodejs />
           </div>
 
-          <span className='text-sm sm:text-base xl:text-lg'>NodeJS</span>
+          <span className='text-sm sm:text-base xl:text-lg font-semibold'>NodeJS</span>
         </article>
 
         <article className='group flex flex-col justify-center gap-2 items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
@@ -78,7 +78,7 @@ export function Skill ({ skill, icon }) {
             <IconMicrosoftSqlServer />
           </div>
 
-          <span className='text-sm sm:text-base xl:text-lg'>SQL Server</span>
+          <span className='text-sm sm:text-base xl:text-lg font-semibold'>SQL Server</span>
         </article>
 
         <article className='group flex flex-col justify-center gap-2 items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
@@ -86,7 +86,7 @@ export function Skill ({ skill, icon }) {
             <IconPostgreSql />
           </div>
 
-          <span className='text-sm sm:text-base xl:text-lg'>PostgreSQL</span>
+          <span className='text-sm sm:text-base xl:text-lg font-semibold'>PostgreSQL</span>
         </article>
 
         <article className='group flex flex-col justify-center gap-2 items-center bg-transparent border border-gray-500 hover:border-gray-400 rounded-lg p-2'>
@@ -94,7 +94,7 @@ export function Skill ({ skill, icon }) {
             <IconMySql />
           </div>
 
-          <span className='text-sm sm:text-base xl:text-lg'>MySQL</span>
+          <span className='text-sm sm:text-base xl:text-lg font-semibold'>MySQL</span>
         </article>
       </section>
     </>

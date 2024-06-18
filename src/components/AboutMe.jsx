@@ -4,7 +4,7 @@ import { LinkIcon } from './LinkIcon.jsx'
 export function AboutMe () {
   return (
     <>
-      <section className='flex flex-col-reverse gap-5 justify-center items-center w-4/5 md:flex-row xl:w-3/4 2xl:w-1/2'>
+      <section className='flex flex-col-reverse gap-14 md:gap-5 justify-center items-center w-4/5 md:flex-row xl:w-3/4 2xl:w-1/2'>
         <article className='flex flex-col'>
           <h1 className='text-3xl lg:text-4xl xl:text-5xl font-bold'>Hola, soy <span className='bg-gradient-to-tl from-slate-800 via-violet-500 to-violet-600 bg-clip-text text-transparent'>Facundo</span></h1>
           <DelayedLetters text='Software Developer Jr' delay={200} repeat={2} />
