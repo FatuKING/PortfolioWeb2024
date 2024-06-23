@@ -1,35 +1,39 @@
-export function Proyect ({ proyect, title, description }) {
+import { useState, useEffect } from 'react'
+import { api } from '../logic/api'
+
+export function Proyect ({ endpoint }) {
+  const [data, setData] = useState()
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const result = await api(endpoint)
+        setData(result)
+      } catch (error) {
+        console.error('Error fetching data:', error)
+      }
+    }
+    fetchData()
+  }, [endpoint])
+
   return (
     <>
-      <section className='flex flex-col md:flex-row gap-2'>
-        <article className='md:w-1/2 h-44 lg:h-40 bg-transparent border border-gray-500 hover:border-gray-400 p-3 pt-4 pb-4 mt-5 rounded-md relative'>
-          <h4 className='inline-block text-lg xl:text-xl font-bold hover:text-violet-500'><a href=''>Pequeños Proyectos</a></h4>
+      <section className='grid grid-cols-1 md:grid-cols-2 gap-2'>
+        {data && data.map((data, index) => (
+          <article key={index} className='h-44 bg-transparent border border-gray-500 hover:border-gray-400 p-3 pt-4 pb-4 mt-5 rounded-md relative'>
+            <h4 className='inline-block text-lg xl:text-xl font-bold hover:text-violet-500'><a href={data.url}>{data.name}</a></h4>
 
-          <a href='' className='absolute top-3 right-4 hover:text-violet-500'><i class='bi bi-github text-2xl' /></a>
+            <a href={data.urlGithub} className='absolute top-3 right-4 hover:text-violet-500'><i className='bi bi-github text-2xl' /></a>
 
-          <p className='pt-2'>Monorepositorio de proyectos utilizando React</p>
+            <p className='pt-2'>{data.description}</p>
 
-          <div className='flex gap-2 absolute bottom-3'>
-            <span className='text-xs font-medium p-1 pl-2 pr-2 bg-blue-950 border border-gray-800 rounded-full'>React</span>
-            <span className='text-xs font-medium p-1 pl-2 pr-2 bg-blue-950 border border-gray-800 rounded-full'>Tailwind</span>
-            <span className='text-xs font-medium p-1 pl-2 pr-2 bg-blue-950 border border-gray-800 rounded-full'>JavaScript</span>
-            <span className='text-xs font-medium p-1 pl-2 pr-2 bg-blue-950 border border-gray-800 rounded-full'>TypeScript</span>
-          </div>
-        </article>
-
-        <article className='md:w-1/2 h-44 lg:h-40 bg-transparent border border-gray-500 hover:border-gray-400 p-3 pt-4 pb-4 mt-5 rounded-md relative'>
-          <h4 className='inline-block text-lg xl:text-xl font-bold hover:text-violet-500'><a href=''>Moli Ahumados</a></h4>
-
-          <a href='' className='absolute top-3 right-4 hover:text-violet-500'><i class='bi bi-github text-2xl' /></a>
-
-          <p className='pt-2'>Menu online para restaurante de comida rapida, utilizando google sheet como base de datos.</p>
-
-          <div className='flex gap-2 absolute bottom-3'>
-            <span className='text-xs font-medium p-1 pl-2 pr-2 bg-blue-950 border border-gray-800 rounded-full'>React</span>
-            <span className='text-xs font-medium p-1 pl-2 pr-2 bg-blue-950 border border-gray-800 rounded-full'>Bootstrap</span>
-            <span className='text-xs font-medium p-1 pl-2 pr-2 bg-blue-950 border border-gray-800 rounded-full'>Google-Sheet</span>
-          </div>
-        </article>
+            <div className='flex gap-2 absolute bottom-3'>
+              {data.skills && data.skills.map((skill, index) => (
+                <span key={index} className='text-xs font-medium p-1 pl-2 pr-2 bg-blue-950 border border-gray-800 rounded-full'>{skill}</span>
+              ))}
+            </div>
+          </article>
+        ))}
 
       </section>
     </>
