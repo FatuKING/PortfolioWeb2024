@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Devquiz",
+        "url": "https://devquiz.site/",
+        "urlGithub": "",
+        "description": "Sistema de gestion de inventario enfocado en venta de hardware, permite administrar entrada y salida de productos.",
+        "skills": ["C#", ".NET", "WPF", "SQL Server"]
+    },
+    {
+        "name": "Laser no sekai - Ecommerce",
+        "url": "",
+        "urlGithub": "",
+        "description": "Convierte enlaces largos en enlaces cortos y faciles de compartir.",
+        "skills": ["NodeJS", "Express", "PostgreSQL"]
+    },
+    {
+        "name": "Pequeños Proyectos",
+        "url": "",
+        "urlGithub": "https://github.com/FatuKING/SmallProyectInReact",
+        "description": "Monorepositorio de proyectos, cuenta con mas de 10 proyectos distintos.",
+        "skills": ["React", "Tailwind", "JavaScript", "NodeJS"]
+    }
+]

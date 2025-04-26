@@ -1,12 +1,11 @@
 export const api = async (endpoint) => {
   try {
-    const URL = `https://api-facundocozzani.fly.dev/${endpoint}`
 
-    const response = await fetch(URL)
-    const data = await response.json()
-    return data
+    let data = await import(`../data/${endpoint}.json`);
+
+    return data.default;
   } catch (err) {
-    console.error('Error fetching data:', err)
-    throw err
+    console.error('Error fetching data:', err);
+    throw err;
   }
 }

@@ -21,9 +21,9 @@ export function Proyect ({ endpoint }) {
       <section className='grid grid-cols-1 md:grid-cols-2 gap-2'>
         {data && data.map((data, index) => (
           <article key={index} className='h-44 bg-transparent border border-gray-500 hover:border-gray-400 p-3 pt-4 pb-4 mt-5 rounded-md relative'>
-            <h4 className='inline-block text-lg xl:text-xl font-bold hover:text-violet-500'><a href={data.url}>{data.name}</a></h4>
+            <h4 className='inline-block text-lg xl:text-xl font-bold hover:text-purple-700'><a href={data.url}>{data.name}</a></h4>
 
-            <a href={data.urlGithub} className='absolute top-3 right-4 hover:text-violet-500'><i className='bi bi-github text-2xl' /></a>
+            <a href={data.urlGithub} className='absolute top-3 right-4 hover:text-purple-700'><i className='bi bi-github text-2xl' /></a>
 
             <p className='pt-2'>{data.description}</p>
 

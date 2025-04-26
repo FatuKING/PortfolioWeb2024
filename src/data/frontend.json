@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Moli Ahumados",
+        "url": "https://moli-ahumados.netlify.app",
+        "urlGithub": "https://github.com/FatuKING/MoliAhumados",
+        "description": "Menu online para restaurante de comida rapida, utilizando google sheet como base de datos.",
+        "skills": ["React", "Bootstrap", "Google-Sheet"]
+    },
+    {
+        "name": "Membranas 202",
+        "url": "https://membranas202.com.ar",
+        "urlGithub": "https://github.com/FatuKING/Landing-Membranas202",
+        "description": "SpookySnap es un proyecto de edición de imagenes con tematica Halloween, que presente en la hackeathon realizada por Cloudinary y Midudev.",
+        "skills": ["React", "Tailwind", "NodeJS"]
+    }
+]
