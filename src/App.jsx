@@ -4,7 +4,7 @@ import { Proyect } from './components/Proyect.jsx'
 import { useState } from 'react'
 import { Skill } from './components/Skill.jsx'
 import { Footer } from './components/Footer.jsx'
-import { Animation } from './components/Animation.jsx'
+import { HeroSection } from './components/HeroSection.jsx'
 
 function App () {
   const [proyect, setProyect] = useState(true)
@@ -23,7 +23,7 @@ function App () {
     <>
       <Navbar />
       <main className='flex flex-col gap-36 xl:gap-48 items-center justify-center pt-20 md:pt-36 '>
-        <Animation />
+        <HeroSection />
 
         <section className='w-4/5 xl:w-3/4 2xl:w-1/2' id='Proyectos'>
           <article className='flex justify-between items-center pb-4'>
