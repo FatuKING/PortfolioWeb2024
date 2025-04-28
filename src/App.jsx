@@ -23,6 +23,7 @@ function App () {
     <>
       <Navbar />
       <main className='flex flex-col gap-36 xl:gap-48 items-center justify-center pt-20 md:pt-36 '>
+        <Animation />
 
         <section className='w-4/5 xl:w-3/4 2xl:w-1/2' id='Proyectos'>
           <article className='flex justify-between items-center pb-4'>

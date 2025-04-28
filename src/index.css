@@ -2,10 +2,14 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+
 :root{
-  font-family: Inter, sans-serif;
+  font-family: 'Quicksand Variable', sans-serif;
   line-height: 1.5;
   font-weight: 400;
+
+  --title-font: 'Poppins', sans-serif;
+  --text-font: 'Quicksand Variable', sans-serif;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -29,11 +33,17 @@
   box-sizing: border-box;
 }
 
+.title{
+  font-family: var(--title-font);
+  font-weight: 700;
+}
+
 .dark {
   height: auto;
   
   background-image: linear-gradient(to right top, #051937, #081635, #0c1334, #100f31, #140a2f);
 }
+
 
 a:hover .color{
   color: #1F2937;
