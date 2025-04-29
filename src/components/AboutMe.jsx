@@ -15,9 +15,19 @@ export function AboutMe () {
           <h1 className='text-3xl lg:text-4xl xl:text-5xl font-bold'>Hola, soy <span className='bg-gradient-to-r from-purple-700 to-indigo-800 bg-clip-text text-transparent'>Facundo</span></h1>
           <DelayedLetters text='Software Developer Jr' delay={200} repeat={2} />
 
-          <p className='inline-block pt-3 xl:text-lg md:w-4/5 xl:w-2/3 2xl:w-3/4'>
-            Actualmente, estoy estudiando en ISTEA y simultáneamente desempeño el rol de analista de sistemas en Cafe Martinez. Durante mi tiempo libre, me dedico a desarrollar mis proyectos personales, disfrutar de videojuegos y compartir momentos con mi familia.
+          <p className='inline-block pt-3 xl:text-base md:w-4/5 xl:w-2/3 2xl:w-3/4'>
+          Cuento con experiencia en frontend y backend, me especializado en React y Node.js. <br />
+          He trabajado en el desarrollo de aplicaciones web, optimizando tanto la experiencia de usuario como el rendimiento del servidor. 
           </p>
+
+          <p className='inline-block pt-3 xl:text-base md:w-4/5 xl:w-2/3 2xl:w-3/4'>
+          También tengo experiencia en C#, lo que me permite abordar proyectos en distintos entornos y tecnologías. 
+          </p>
+
+          <p className='inline-block pt-3 xl:text-base md:w-4/5 xl:w-2/3 2xl:w-3/4'>
+          Me enfoco en crear soluciones limpias, eficientes y adaptadas a las necesidades de cada proyecto, manteniendo buenas prácticas de desarrollo y trabajo en equipo.
+          </p>
+
 
           <div className='flex gap-3 pt-5'>
             {data.links.map((link, index) => (
