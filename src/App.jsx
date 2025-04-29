@@ -27,7 +27,7 @@ function App () {
 
         <section className='w-4/5 xl:w-3/4 2xl:w-1/2' id='Proyectos'>
           <article className='flex justify-between items-center pb-4'>
-            <h2 className=' text-2xl 2xl:text-3xl font-bold'> <i className='bi bi-code-slash font-bold' /> Proyectos</h2>
+            <h2 className=' text-2xl 2xl:text-3xl font-bold'> Proyectos</h2>
             <div className='flex justify-center items-center w-auto bg-transparent border border-gray-500 rounded'>
               <button onClick={proyectFront} className={`p-1 pl-2 pr-2 ${proyect ? styleOn : null}`}>
                 Frontend
@@ -43,14 +43,12 @@ function App () {
           }
         </section>
 
-        <section className='w-4/5 xl:w-3/4 2xl:w-1/2 pb-36'>
-          <article className='pb-4'>
-            <h2 className='text-2xl 2xl:text-3xl pb-3 font-bold' id='Habilidades'> <i className='bi bi-code-slash font-bold' /> Habilidades</h2>
-          </article>
-
+        <section className='flex justify-between items-center  w-4/5 xl:w-3/4 2xl:w-1/2'>
+     
+          <h2 className='text-2xl 2xl:text-3xl font-bold' id='Habilidades'> Habilidades</h2>
+        
           <Skill />
           
-
         </section>
 
         <AboutMe />

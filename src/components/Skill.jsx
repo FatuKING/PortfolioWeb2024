@@ -3,20 +3,20 @@ import { IconJavascript, IconReact, IconCShar, IconPostgreSql } from './icons.js
 export function Skill () {
   return (
     <>
-      <section className='grid grid-cols-3 md:grid-cols-6 gap-3 md:gap-5'>
-          <div className=' filter hover:grayscale-0 grayscale transition-all duration-300'>
+      <section className='flex gap-4'>
+          <div className='filter hover:grayscale-0 grayscale transition-all duration-300'>
             <IconJavascript />
           </div>
 
-          <div className=''>
+          <div className='filter hover:grayscale-0 grayscale transition-all duration-300'>
             <IconReact />
           </div>  
       
-          <div className=''>
+          <div className='filter hover:grayscale-0 grayscale transition-all duration-300'>
             <IconCShar />
           </div>
     
-          <div className=''>
+          <div className='filter hover:grayscale-0 grayscale transition-all duration-300'>
             <IconPostgreSql />
           </div>
 
