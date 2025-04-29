@@ -8,7 +8,7 @@ export function HeroSection () {
         <p className='text-base text-gray-300 w-3/4'>Transformo ideas en soluciones digitales funcionales y elegantes, utilizando tecnologías modernas para resolver problemas reales.</p>
 
         <button>
-            <a href="#Proyectos" target="_blank" className='bg-blue-950/50 border border-gray-800 rounded shadow p-2 pl-4 pr-4 hover:bg-blue-950/70'>Ver Curriculum</a>
+            <a href="#Proyectos" target="_blank" className='bg-[#8D5499] text-black font-semibold border border-gray-800 rounded shadow p-2 pl-4 pr-4 hover:bg-[#894a96]'>Ver Curriculum</a>
         </button>
       </div>
 

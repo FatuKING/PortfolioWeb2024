@@ -14,7 +14,7 @@ export function Navbar () {
           <nav className='flex items-center gap-4'>
             <ul className='flex gap-3 bg-transparent'>
               {menuItems.map((item, index) => (
-                <li key={index} className='font-medium text-base hover:text-purple-700'><a href={item.url}>{item.name}</a></li>
+                <li key={index} className='font-medium text-base hover:font-bold hover:text-[#8D5499]'><a href={item.url}>{item.name}</a></li>
               ))}
             </ul>
 

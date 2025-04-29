@@ -44,12 +44,6 @@
   background-image: linear-gradient(to right top, #051937, #081635, #0c1334, #100f31, #140a2f);
 }
 
-
-a:hover .color{
-  color: #1F2937;
-  transition: color 300ms ease-in-out;
-}
-
 .imgShadow {
   filter: drop-shadow(0 0 0.40rem white);
 }

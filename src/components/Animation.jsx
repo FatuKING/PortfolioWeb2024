@@ -44,17 +44,17 @@ export function Animation() {
 
   return ( 
     <div ref={root} className="w-40 h-40 relative justify-center items-center flex rounded-full">
-        <div className="shape absolute w-4 h-4 bg-orange-700 z-10"></div> 
-        <div className="shape2 absolute w-5 h-5 bg-orange-700 z-10"></div> 
+        <div className="shape absolute w-4 h-4 bg-[#8D5499] z-10"></div> 
+        <div className="shape2 absolute w-5 h-5 bg-[#8D5499]  z-10"></div> 
 
-        <div className="shape absolute w-4 h-4 bg-yellow-600  rounded-full z-10"></div> 
-        <div className="shape2 absolute w-5 h-5 bg-yellow-600 rounded-full z-10"></div> 
+        <div className="shape absolute w-4 h-4 bg-[#8D5499]   rounded-full z-10"></div> 
+        <div className="shape2 absolute w-5 h-5 bg-[#8D5499]  rounded-full z-10"></div> 
 
-        <div className="shape absolute w-4 h-4 bg-transparent border border-orange-600"></div>
-        <div className="shape2 absolute w-5 h-5 bg-transparent border border-yellow-600 rounded-full"></div>
+        <div className="shape absolute w-4 h-4 bg-transparent border border-[#8D5499]"></div>
+        <div className="shape2 absolute w-5 h-5 bg-transparent border border-[#8D5499] rounded-full"></div>
         
-        <div className="shape2 absolute w-4 h-4 bg-transparent border border-yellow-600 rounded-full"></div>
-        <div className="shape absolute w-5 h-5 bg-transparent border border-yellow-600"></div>
+        <div className="shape2 absolute w-4 h-4 bg-transparent border border-[#8D5499] rounded-full"></div>
+        <div className="shape absolute w-5 h-5 bg-transparent border border-[#8D5499]"></div>
     </div>
   );
 }
