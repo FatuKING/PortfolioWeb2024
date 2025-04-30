@@ -4,12 +4,12 @@
 
 
 :root{
-  font-family: 'Quicksand Variable', sans-serif;
+  font-family: var(--text-font);
   line-height: 1.5;
   font-weight: 400;
 
-  --title-font: 'Poppins', sans-serif;
-  --text-font: 'Quicksand Variable', sans-serif;
+  --text-font: 'Poppins', sans-serif;
+  --title-font: 'Quicksand Variable', sans-serif;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
