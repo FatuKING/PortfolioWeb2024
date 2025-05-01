@@ -12,5 +12,12 @@
         "urlGithub": "https://github.com/FatuKING/Landing-Membranas202",
         "description": "SpookySnap es un proyecto de edición de imagenes con tematica Halloween, que presente en la hackeathon realizada por Cloudinary y Midudev.",
         "skills": ["React", "Tailwind", "NodeJS"]
+    },
+    {
+        "name": "Membranas 202",
+        "url": "https://membranas202.com.ar",
+        "urlGithub": "https://github.com/FatuKING/Landing-Membranas202",
+        "description": "SpookySnap es un proyecto de edición de imagenes con tematica Halloween, que presente en la hackeathon realizada por Cloudinary y Midudev.",
+        "skills": ["React", "Tailwind", "NodeJS"]
     }
 ]

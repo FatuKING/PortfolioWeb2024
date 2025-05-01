@@ -17,18 +17,18 @@ function App () {
     setProyect(false)
   }
 
-  const styleOn = 'bg-blue-950/50 border border-gray-800 rounded shadow'
+  const styleOn = 'bg-[#0f172a] border border-gray-500/20 rounded shadow'
 
   return (
     <>
       <Navbar />
-      <main className='flex flex-col gap-28 xl:gap-48 items-center justify-center pt-20 md:pt-36 '>
+      <main className='flex flex-col gap-28 xl:gap-36 items-center justify-center pt-20 md:pt-36 '>
         <HeroSection />
 
         <section className='w-4/5 xl:w-3/4 2xl:w-1/2' id='Proyectos'>
           <article className='flex justify-between items-center pb-4'>
             <h2 className=' text-2xl 2xl:text-3xl font-bold'> Proyectos</h2>
-            <div className='flex justify-center items-center w-auto bg-transparent border border-gray-500 rounded'>
+            <div className='flex justify-center items-center w-auto bg-transparent border border-gray-500/20 rounded'>
               <button onClick={proyectFront} className={`p-1 pl-2 pr-2 ${proyect ? styleOn : null}`}>
                 Frontend
               </button>
@@ -43,9 +43,7 @@ function App () {
           }
         </section>
 
-        <section className='flex justify-between items-center  w-4/5 xl:w-3/4 2xl:w-1/2'>
-     
-          <h2 className='text-2xl 2xl:text-3xl font-bold' id='Habilidades'> Habilidades</h2>
+        <section className='flex justify-center items-center w-4/5 xl:w-3/4 2xl:w-1/2'>
         
           <Skill />
           
