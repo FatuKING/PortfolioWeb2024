@@ -11,13 +11,13 @@
         "url": "https://membranas202.com.ar",
         "urlGithub": "https://github.com/FatuKING/Landing-Membranas202",
         "description": "SpookySnap es un proyecto de edición de imagenes con tematica Halloween, que presente en la hackeathon realizada por Cloudinary y Midudev.",
-        "skills": ["React", "Tailwind", "NodeJS"]
+        "skills": ["React", "Tailwind"]
     },
     {
-        "name": "Membranas 202",
+        "name": "Aim Trainer - Juego",
         "url": "https://membranas202.com.ar",
         "urlGithub": "https://github.com/FatuKING/Landing-Membranas202",
-        "description": "SpookySnap es un proyecto de edición de imagenes con tematica Halloween, que presente en la hackeathon realizada por Cloudinary y Midudev.",
-        "skills": ["React", "Tailwind", "NodeJS"]
+        "description": "Juego de punteria, donde el usuario tiene que hacer click en los puntos que aparecen en la pantalla, con un tiempo limite. Tiene un sistema de puntuacion y configuración de dificultad.",
+        "skills": ["React", "Tailwind"]
     }
 ]
